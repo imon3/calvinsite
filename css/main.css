@@ -1,0 +1,44 @@
+html, body, form{
+	width: 100%;
+	height: calc(100vh);
+	overflow-y: auto;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0,0,0,.0);
+}
+
+/*----BACKGROUND IMAGE-------------*/
+.background{
+	background: url(../img/pic1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	min-height: 100%;
+}
+
+/*--------TEXT COLOR----------*/
+.color{
+	color: #018f83;
+}
+
+/*-------BUTTON COLOR-------------*/
+.color2{
+	background-color: #103e22;
+}
+
+.hov:hover{
+	color: #103e22;
+}
+
+/*------COMPANY NAME-------------*/
+.comp-name:hover{
+	text-decoration: none;
+	color: #103e22;
+}
+
+.info{
+	font-size: 1.5rem;
+}
+

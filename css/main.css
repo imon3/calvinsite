@@ -50,20 +50,48 @@ html, body, form{
 .contact h1{
 
 }
+
 /*---------------FORM----------------*/
 form.style{
-	width: 20rem;
+	min-width: 20rem;
 	margin: 200px auto 0;
 	height: 100%;
 }
 
+form .email{
+	border-radius: 10px;
+}
+
 form .description{
-	width: 20rem;
+	width: 100%;
 	min-height: 100px;
 	margin-top: 20px;
+	border-radius: 10px;
+}
+
+form button{
+	width: 100px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+form button:hover{
+	color: #018f83;
+	background-color: #103e22;
 }
 
 /*-------MISSION STATEMENT PAGE------------*/
-.misshead{
-	margin: 200px auto 0;
+main#main .color{
+	color: #85878c;
 }
+
+main .misshead{
+	margin: 200px auto 0;
+	color: #018f83;
+}
+
+main .statement{
+	margin-top: 50px;
+}
+
+
